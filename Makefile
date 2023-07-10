@@ -57,7 +57,7 @@ down:
 	atlas schema apply \
   		--url "mysql://root:pass@localhost:3306/example" \
 		--to "file://migrations?version=$(VERSION)" \
-  		--dev-url "docker://mysql/8/example" \
+  		--dev-url "docker://mysql/8/example"
 	
 	atlas migrate set $(VERSION) \
   		--url "mysql://root:pass@localhost:3306/example" \
