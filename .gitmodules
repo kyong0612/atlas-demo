@@ -1,0 +1,3 @@
+[submodule "fork"]
+	path = fork
+	url = https://github.com/ariga/atlas.git
